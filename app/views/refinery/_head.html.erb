@@ -8,6 +8,7 @@
   <%= csrf_meta_tags if Refinery::Core.authenticity_token_on_frontend -%>
   <%= yield :meta %>
 
+  <%= google_webfonts_init({google: ['Noto Serif']}) %>
   <%= stylesheet_link_tag "application", "formatting", "theme" %>
   <%= stylesheet_link_tag "home" if home_page? %>
   <%= yield :stylesheets %>
