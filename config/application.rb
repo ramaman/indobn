@@ -71,6 +71,6 @@ module Indobn
     end
 
     # Use SASS syntax
-    config.sass.preferred_syntax = :sass    
+    # config.sass.preferred_syntax = :sass    
   end
 end
