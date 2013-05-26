@@ -25,6 +25,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'newrelic_rpm'
 gem 'google-webfonts-rails', "~> 0.0.3"
 gem 'jquery-rails', '~> 2.0.0'
 
